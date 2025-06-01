@@ -25,8 +25,6 @@ stdenv.mkDerivation {
     ./0001-vfs0090-add-missing-explicit-dependencies-in-meson.b.patch
     # TODO remove once https://gitlab.freedesktop.org/3v1n0/libfprint-tod-vfs0090/-/merge_requests/2 is merged
     ./0002-vfs0090-add-missing-linux-limits.h-include.patch
-    # TODO remove once libfprint-tod is upgraded to a more recent version
-    ./0003-vfs0090-adapt-to-old-libfprint-fpi-ssm-api.patch
     ./0004-vfs0090-adapt-to-old-libfprint-api.patch
 
     ./0005-gen-scan-matrix-fail-without-calib-data.patch
