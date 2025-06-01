@@ -8,6 +8,7 @@ It has been tested with a T480.
 
 # How to Use
 
-* With NixOS Unstable: Not supported. You can try the instructions for 24.11, though.
+* With NixOS Unstable: Not supported. You can try the instructions for 25.05, though.
+* With NixOS 25.05: See [SETUP-25.05.md](./SETUP-25.05.md).
 * With NixOS 24.11: See [SETUP-24.11.md](./SETUP-24.11.md).
 * With NixOS 23.11: Check out the branch [`23.11`](https://github.com/ahbnr/nixos-06cb-009a-fingerprint-sensor/tree/23.11) and follow the instructions in the `README.md` on that branch.
