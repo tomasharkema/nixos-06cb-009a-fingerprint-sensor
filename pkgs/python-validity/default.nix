@@ -4,7 +4,7 @@
   fetchFromGitHub,
   python3Packages,
 }: let
-  inherit (python3Packages) python buildPythonPackage;
+  inherit (python3Packages) python buildPythonPackage setuptools;
 in
   buildPythonPackage rec {
     pname = "python-validity";
@@ -16,6 +16,9 @@ in
       rev = "${version}";
       sha256 = "sha256-6NbxeokbGW5yP3g9Q/W3k0JiU6g+qyeZfKfw0nBJ37o="; # set to lib.fakeSha256 first to get the hash
     };
+
+    pyproject = true;
+    build-system = [setuptools];
 
     patches = [
       # the service writes to a temporary file in usr/share, which is write-protected in Nix.
