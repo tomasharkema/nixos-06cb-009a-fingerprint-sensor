@@ -26,9 +26,9 @@
   python-validity,
   calib-data,
   autoPatchelfHook,
-  fetchPatch,
+  fetchpatch,
 }: let
-  extraPatch = fetchPatch {
+  extraPatch = fetchpatch {
     src = "https://raw.githubusercontent.com/Shade30/arch_libfprint-vfs009x/refs/heads/master/0001-VFS0097-Update-vfs0090.h.patch";
     sha256 = "";
   };
