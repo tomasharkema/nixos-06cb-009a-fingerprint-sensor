@@ -29,8 +29,8 @@
   fetchpatch,
 }: let
   extraPatch = fetchpatch {
-    src = "https://raw.githubusercontent.com/Shade30/arch_libfprint-vfs009x/refs/heads/master/0001-VFS0097-Update-vfs0090.h.patch";
-    sha256 = "";
+    url = "https://raw.githubusercontent.com/Shade30/arch_libfprint-vfs009x/refs/heads/master/0001-VFS0097-Update-vfs0090.h.patch";
+    sha256 = "03xmqs1c974247c58w20yg05cm6v8sipl0pg5f046xs991ik6m7n";
   };
 in
   stdenv.mkDerivation {
