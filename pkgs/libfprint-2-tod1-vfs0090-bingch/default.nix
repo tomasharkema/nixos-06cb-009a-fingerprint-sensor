@@ -16,8 +16,8 @@ stdenv.mkDerivation {
     domain = "gitlab.com";
     owner = "bingch";
     repo = "libfprint-tod-vfs0090";
-    rev = "3a5e27bc4e5dbbb42b953958796830e87b82d843";
-    sha256 = "sha256-s6YPBeUYWBRUpVAsBvCKKTGQ8juMbPuJYWzXxKpcJkk=";
+    rev = "a0a39c8c0e597df468665404d92f30da9056433f";
+    sha256 = "sha256-4x7D0CTGVKbeFjMx+r41+J7q6lik60J0WgNcOlThuFI=";
   };
 
   patches = [
